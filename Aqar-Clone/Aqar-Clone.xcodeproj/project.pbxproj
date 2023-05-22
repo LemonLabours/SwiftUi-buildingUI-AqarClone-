@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9368DC62A173A8500494E57 /* Aqar_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9368DC52A173A8500494E57 /* Aqar_CloneApp.swift */; };
+		A9368DC82A173A8500494E57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9368DC72A173A8500494E57 /* ContentView.swift */; };
+		A9368DCA2A173A8600494E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9368DC92A173A8600494E57 /* Assets.xcassets */; };
+		A9368DCD2A173A8600494E57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9368DCC2A173A8600494E57 /* Preview Assets.xcassets */; };
+		A9368DD52A173CCE00494E57 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9368DD42A173CCE00494E57 /* SplashScreenView.swift */; };
+		A9368DD82A173D0B00494E57 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9368DD72A173D0B00494E57 /* MapView.swift */; };
+		A96C80142A17B98800672523 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C80132A17B98800672523 /* Colors.swift */; };
+		A96C80162A17B99C00672523 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C80152A17B99C00672523 /* Fonts.swift */; };
+		A96C80182A17C23D00672523 /* Cairo-VariableFont_slnt,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A96C80172A17C23D00672523 /* Cairo-VariableFont_slnt,wght.ttf */; };
+		A96C803D2A185FD100672523 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C803C2A185FD100672523 /* TabBar.swift */; };
+		A96C80442A18677400672523 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C80432A18677400672523 /* ProfileView.swift */; };
+		A96C80462A18678800672523 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C80452A18678800672523 /* FavoriteView.swift */; };
+		A96C80482A18679800672523 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C80472A18679800672523 /* ChatsView.swift */; };
+		A96C80502A187D3E00672523 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C804F2A187D3E00672523 /* ServicesView.swift */; };
+		A9CD103D2A188D7D00939B3A /* GridButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD103C2A188D7D00939B3A /* GridButtons.swift */; };
+		A9CD10402A189F0C00939B3A /* ServicesHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD103F2A189F0C00939B3A /* ServicesHeader.swift */; };
+		A9CD104D2A190C2E00939B3A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CD104C2A190C2E00939B3A /* MapKit.framework */; };
+		A9CD104F2A190C4000939B3A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CD104E2A190C4000939B3A /* CoreLocation.framework */; };
+		A9CD10522A1919FA00939B3A /* FloatingButton in Frameworks */ = {isa = PBXBuildFile; productRef = A9CD10512A1919FA00939B3A /* FloatingButton */; };
+		A9CD10542A191DBC00939B3A /* FloatingHeaderButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD10532A191DBC00939B3A /* FloatingHeaderButtons.swift */; };
+		A9CD10562A192FC800939B3A /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD10552A192FC800939B3A /* ProfileHeader.swift */; };
+		A9CD105A2A194CB500939B3A /* FloatingSingleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD10592A194CB500939B3A /* FloatingSingleButton.swift */; };
+		A9CD105C2A1962C300939B3A /* ProfileFirstSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD105B2A1962C300939B3A /* ProfileFirstSection.swift */; };
+		A9CD105E2A19667900939B3A /* ProfileSecondSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD105D2A19667900939B3A /* ProfileSecondSection.swift */; };
+		A9CD10602A198F7A00939B3A /* AllTheFloatingButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD105F2A198F7A00939B3A /* AllTheFloatingButtons.swift */; };
+		A9CD10622A19920500939B3A /* FavoriteHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD10612A19920500939B3A /* FavoriteHeader.swift */; };
+		A9CD10642A19949500939B3A /* ChatsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD10632A19949500939B3A /* ChatsHeader.swift */; };
+		A9CD10662A199F6F00939B3A /* PictureListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD10652A199F6E00939B3A /* PictureListView.swift */; };
+		A9CD10692A19A21400939B3A /* AqarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD10682A19A21400939B3A /* AqarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9CD10472A18FFDC00939B3A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A9368DC22A173A8500494E57 /* Aqar-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aqar-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9368DC52A173A8500494E57 /* Aqar_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aqar_CloneApp.swift; sourceTree = "<group>"; };
+		A9368DC72A173A8500494E57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9368DC92A173A8600494E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9368DCC2A173A8600494E57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9368DD42A173CCE00494E57 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		A9368DD72A173D0B00494E57 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A96C80132A17B98800672523 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A96C80152A17B99C00672523 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		A96C80172A17C23D00672523 /* Cairo-VariableFont_slnt,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-VariableFont_slnt,wght.ttf"; sourceTree = "<group>"; };
+		A96C80192A17C3E700672523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A96C803C2A185FD100672523 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		A96C80432A18677400672523 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A96C80452A18678800672523 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		A96C80472A18679800672523 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		A96C804F2A187D3E00672523 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		A9CD103C2A188D7D00939B3A /* GridButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridButtons.swift; sourceTree = "<group>"; };
+		A9CD103F2A189F0C00939B3A /* ServicesHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesHeader.swift; sourceTree = "<group>"; };
+		A9CD104C2A190C2E00939B3A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A9CD104E2A190C4000939B3A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A9CD10532A191DBC00939B3A /* FloatingHeaderButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingHeaderButtons.swift; sourceTree = "<group>"; };
+		A9CD10552A192FC800939B3A /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		A9CD10592A194CB500939B3A /* FloatingSingleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingSingleButton.swift; sourceTree = "<group>"; };
+		A9CD105B2A1962C300939B3A /* ProfileFirstSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFirstSection.swift; sourceTree = "<group>"; };
+		A9CD105D2A19667900939B3A /* ProfileSecondSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSecondSection.swift; sourceTree = "<group>"; };
+		A9CD105F2A198F7A00939B3A /* AllTheFloatingButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTheFloatingButtons.swift; sourceTree = "<group>"; };
+		A9CD10612A19920500939B3A /* FavoriteHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteHeader.swift; sourceTree = "<group>"; };
+		A9CD10632A19949500939B3A /* ChatsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsHeader.swift; sourceTree = "<group>"; };
+		A9CD10652A199F6E00939B3A /* PictureListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureListView.swift; sourceTree = "<group>"; };
+		A9CD10682A19A21400939B3A /* AqarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AqarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9368DBF2A173A8500494E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CD10522A1919FA00939B3A /* FloatingButton in Frameworks */,
+				A9CD104F2A190C4000939B3A /* CoreLocation.framework in Frameworks */,
+				A9CD104D2A190C2E00939B3A /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9368DB92A173A8500494E57 = {
+			isa = PBXGroup;
+			children = (
+				A9368DC42A173A8500494E57 /* Aqar-Clone */,
+				A9368DC32A173A8500494E57 /* Products */,
+				A9CD104B2A190C2E00939B3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9368DC32A173A8500494E57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9368DC22A173A8500494E57 /* Aqar-Clone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9368DC42A173A8500494E57 /* Aqar-Clone */ = {
+			isa = PBXGroup;
+			children = (
+				A96C80192A17C3E700672523 /* Info.plist */,
+				A9368DC52A173A8500494E57 /* Aqar_CloneApp.swift */,
+				A9368DC72A173A8500494E57 /* ContentView.swift */,
+				A96C804F2A187D3E00672523 /* ServicesView.swift */,
+				A9368DC92A173A8600494E57 /* Assets.xcassets */,
+				A9368DCB2A173A8600494E57 /* Preview Content */,
+			);
+			path = "Aqar-Clone";
+			sourceTree = "<group>";
+		};
+		A9368DCB2A173A8600494E57 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A96C803E2A18670B00672523 /* Screens */,
+				A96C80122A17B97100672523 /* Assets */,
+				A9368DCC2A173A8600494E57 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9368DD32A173C9000494E57 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				A9368DD42A173CCE00494E57 /* SplashScreenView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		A9368DD62A173CE500494E57 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				A9368DD72A173D0B00494E57 /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		A96C80122A17B97100672523 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A96C803B2A185FAA00672523 /* Colors */,
+				A96C803A2A185F9900672523 /* Font */,
+				A96C80392A185F7A00672523 /* ContentComponents */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A96C80392A185F7A00672523 /* ContentComponents */ = {
+			isa = PBXGroup;
+			children = (
+				A96C803C2A185FD100672523 /* TabBar.swift */,
+				A9CD10532A191DBC00939B3A /* FloatingHeaderButtons.swift */,
+				A9CD10592A194CB500939B3A /* FloatingSingleButton.swift */,
+				A9CD105F2A198F7A00939B3A /* AllTheFloatingButtons.swift */,
+			);
+			path = ContentComponents;
+			sourceTree = "<group>";
+		};
+		A96C803A2A185F9900672523 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				A96C80152A17B99C00672523 /* Fonts.swift */,
+				A96C80172A17C23D00672523 /* Cairo-VariableFont_slnt,wght.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		A96C803B2A185FAA00672523 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				A96C80132A17B98800672523 /* Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		A96C803E2A18670B00672523 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD10672A19A1FC00939B3A /* Aqar */,
+				A9368DD32A173C9000494E57 /* Splash */,
+				A9368DD62A173CE500494E57 /* Map */,
+				A96C803F2A18671B00672523 /* Profile */,
+				A96C80402A18672500672523 /* Favorite */,
+				A96C80412A18673000672523 /* Chats */,
+				A9CD103E2A189EEB00939B3A /* Services */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A96C803F2A18671B00672523 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A96C80432A18677400672523 /* ProfileView.swift */,
+				A9CD105D2A19667900939B3A /* ProfileSecondSection.swift */,
+				A9CD10552A192FC800939B3A /* ProfileHeader.swift */,
+				A9CD105B2A1962C300939B3A /* ProfileFirstSection.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A96C80402A18672500672523 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				A96C80452A18678800672523 /* FavoriteView.swift */,
+				A9CD10612A19920500939B3A /* FavoriteHeader.swift */,
+				A9CD10652A199F6E00939B3A /* PictureListView.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		A96C80412A18673000672523 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				A96C80472A18679800672523 /* ChatsView.swift */,
+				A9CD10632A19949500939B3A /* ChatsHeader.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		A9CD103E2A189EEB00939B3A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD103C2A188D7D00939B3A /* GridButtons.swift */,
+				A9CD103F2A189F0C00939B3A /* ServicesHeader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A9CD104B2A190C2E00939B3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD104E2A190C4000939B3A /* CoreLocation.framework */,
+				A9CD104C2A190C2E00939B3A /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9CD10672A19A1FC00939B3A /* Aqar */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD10682A19A21400939B3A /* AqarView.swift */,
+			);
+			path = Aqar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9368DC12A173A8500494E57 /* Aqar-Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9368DD02A173A8600494E57 /* Build configuration list for PBXNativeTarget "Aqar-Clone" */;
+			buildPhases = (
+				A9368DBE2A173A8500494E57 /* Sources */,
+				A9368DBF2A173A8500494E57 /* Frameworks */,
+				A9368DC02A173A8500494E57 /* Resources */,
+				A9CD10472A18FFDC00939B3A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aqar-Clone";
+			packageProductDependencies = (
+				A9CD10512A1919FA00939B3A /* FloatingButton */,
+			);
+			productName = "Aqar-Clone";
+			productReference = A9368DC22A173A8500494E57 /* Aqar-Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9368DBA2A173A8500494E57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A9368DC12A173A8500494E57 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = A9368DBD2A173A8500494E57 /* Build configuration list for PBXProject "Aqar-Clone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9368DB92A173A8500494E57;
+			packageReferences = (
+				A9CD10502A1919FA00939B3A /* XCRemoteSwiftPackageReference "FloatingButton" */,
+			);
+			productRefGroup = A9368DC32A173A8500494E57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9368DC12A173A8500494E57 /* Aqar-Clone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9368DC02A173A8500494E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9368DCD2A173A8600494E57 /* Preview Assets.xcassets in Resources */,
+				A96C80182A17C23D00672523 /* Cairo-VariableFont_slnt,wght.ttf in Resources */,
+				A9368DCA2A173A8600494E57 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9368DBE2A173A8500494E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CD105C2A1962C300939B3A /* ProfileFirstSection.swift in Sources */,
+				A9CD105E2A19667900939B3A /* ProfileSecondSection.swift in Sources */,
+				A9CD10402A189F0C00939B3A /* ServicesHeader.swift in Sources */,
+				A96C80442A18677400672523 /* ProfileView.swift in Sources */,
+				A9CD103D2A188D7D00939B3A /* GridButtons.swift in Sources */,
+				A9CD10602A198F7A00939B3A /* AllTheFloatingButtons.swift in Sources */,
+				A9368DC82A173A8500494E57 /* ContentView.swift in Sources */,
+				A96C80482A18679800672523 /* ChatsView.swift in Sources */,
+				A96C80142A17B98800672523 /* Colors.swift in Sources */,
+				A9368DD82A173D0B00494E57 /* MapView.swift in Sources */,
+				A9CD105A2A194CB500939B3A /* FloatingSingleButton.swift in Sources */,
+				A9CD10692A19A21400939B3A /* AqarView.swift in Sources */,
+				A9368DC62A173A8500494E57 /* Aqar_CloneApp.swift in Sources */,
+				A9CD10562A192FC800939B3A /* ProfileHeader.swift in Sources */,
+				A9CD10662A199F6F00939B3A /* PictureListView.swift in Sources */,
+				A96C80162A17B99C00672523 /* Fonts.swift in Sources */,
+				A96C80502A187D3E00672523 /* ServicesView.swift in Sources */,
+				A9368DD52A173CCE00494E57 /* SplashScreenView.swift in Sources */,
+				A9CD10642A19949500939B3A /* ChatsHeader.swift in Sources */,
+				A9CD10622A19920500939B3A /* FavoriteHeader.swift in Sources */,
+				A96C80462A18678800672523 /* FavoriteView.swift in Sources */,
+				A9CD10542A191DBC00939B3A /* FloatingHeaderButtons.swift in Sources */,
+				A96C803D2A185FD100672523 /* TabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A9368DCE2A173A8600494E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9368DCF2A173A8600494E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9368DD12A173A8600494E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aqar-Clone/Preview Content\"";
+				DEVELOPMENT_TEAM = 4MV2XTA97J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aqar-Clone/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lemon.Aqar-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9368DD22A173A8600494E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aqar-Clone/Preview Content\"";
+				DEVELOPMENT_TEAM = 4MV2XTA97J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aqar-Clone/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lemon.Aqar-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9368DBD2A173A8500494E57 /* Build configuration list for PBXProject "Aqar-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9368DCE2A173A8600494E57 /* Debug */,
+				A9368DCF2A173A8600494E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9368DD02A173A8600494E57 /* Build configuration list for PBXNativeTarget "Aqar-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9368DD12A173A8600494E57 /* Debug */,
+				A9368DD22A173A8600494E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A9CD10502A1919FA00939B3A /* XCRemoteSwiftPackageReference "FloatingButton" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/FloatingButton";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9CD10512A1919FA00939B3A /* FloatingButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9CD10502A1919FA00939B3A /* XCRemoteSwiftPackageReference "FloatingButton" */;
+			productName = FloatingButton;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A9368DBA2A173A8500494E57 /* Project object */;
+}
